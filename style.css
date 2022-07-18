@@ -1,0 +1,157 @@
+/* Applied To All Website  */
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #f3f1ff;
+  }
+  
+  /*======== Navigation Style Starts ========*/
+  .top-nav {
+    width: 100%;
+    background-color: #562eff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 40px;
+    height: 51px;
+  }
+  .logo h2 {
+    color: white;
+    font-weight: 400;
+    padding-left: 15px;
+  }
+  .pages a {
+    color: white;
+    padding-left: 36px;
+    text-decoration: none;
+  }
+  /*======== Navigation Style Ends ========*/
+  
+  /*======== Top Section Style Starts ========*/
+  .top-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    flex-direction: column;
+  }
+  .top-player-blog {
+    width: 870px;
+    height: 680px;
+    background-color: #ffffff;
+    border-radius: 3px;
+  }
+  .top-heading {
+    margin-left: 30px;
+  }
+  span {
+    color: #562eff;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 29px;
+    margin-left: 30px;
+  }
+  .player-info {
+    display: flex;
+  }
+  .player-info img {
+    height: 56px;
+    width: 56px;
+    padding-right: 16px;
+  }
+  /*======== Top Section Style Ends ========*/
+  
+  hr {
+    width: 807px;
+    color: #d1d1d173;
+    margin-top: 44px;
+  }
+  
+  /*======== Blog Section Style Starts ========*/
+  .blog-heading {
+    margin-left: 30px;
+  }
+  .blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 45px;
+    margin-left: 30px;
+  }
+  .blog-info img {
+    height: 117px;
+    width: 177px;
+    margin-right: 16px;
+  }
+  .blog-info {
+    display: flex;
+  }
+  .text-info h4 {
+    margin-top: 5px;
+  }
+  .text-info p {
+    line-height: 1;
+  }
+  /*======== Blog Section Style Ends ========*/
+  
+  /*======== Course Section Style Starts ========*/
+  .course-section {
+    margin-top: 21px;
+    background-color: white;
+    border-radius: 3px;
+    width: 870px;
+    height: 362px;
+  }
+  .course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .course-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .course-info img {
+    width: 224px;
+    height: 104px;
+  }
+  .course-heading h2 span {
+    padding-left: 30px;
+  }
+  
+  .course-text-info a {
+    line-height: 0;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .fa-star {
+    color: gold;
+  }
+  .last {
+    color: rgba(97, 97, 97, 0.329);
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+  }
+  .fa-clock {
+    color: #ff4a60;
+  }
+  .rating {
+    padding-left: 10px;
+  }
+  /*======== Course Section Style Ends ========*/
